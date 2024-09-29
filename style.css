@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.base {
+    display:grid;
+    grid-template-columns: repeat(1,1fr) repeat(1,5fr);
+    height: 100vh;
+}
+ul {
+    list-style-type: none;
+}
+.dash
+{
+    display:grid;
+    grid-template-columns: 10px 10px;
+    gap:20px;
+    align-items: first baseline;
+    font-size: 25px;
+    margin-left: 30px;
+    color: aliceblue;
+    
+}
+.home,
+.profile,
+.mess,
+.his,
+.tasks,
+.com,
+.set,
+.sup,
+.priv{
+    display:grid;
+    grid-template-columns: 10px 10px;
+    gap:40px;
+    align-items: first baseline;
+    font-size: 20px;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.dashboard{
+    background-color: rgb(90, 90, 148);
+    
+    
+}
+.header {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(124, 182, 209);
+    
+}
+.prv{
+    display:flex ;
+    gap:15px;
+    padding:30px;
+}
+img {
+    border-radius: 50%;
+}
+input{
+    width: 400px;
+    border-radius: 20px;
+}
+.prvred{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.vtor{
+    display: grid;
+    grid-template-columns: 20px 30px 200px;
+    gap:20px;
+    align-items: center;
+    margin-right: 200px;
+
+    
+}
+.vtorred {
+    display:grid;
+    grid-template-columns:2fr 1fr ;
+}
+.hi{
+    display:grid;
+    grid-template-columns:100px 300px;
+    margin-left: 30px;
+}
+.koj {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 0;
+
+}
+.pozdrav{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+button {
+    height: 70px;
+    width: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: pink;
+    color: white;
+    font-size: large;
+    border: 1px solid grey;
+}
+.kopchinja {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:15px;
+    margin-right: 200px;
+
+}
+.username{
+    font-size: 20px;
+}
+.context {
+    display:grid;
+    grid-column: 2/3;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(8,100px);
+}
+.projects{
+    display:grid;
+    grid-template-columns: repeat(2,minmax(250px,1fr));
+    grid-template-rows: 2/8;
+    grid-column: 1/3;
+    gap:10px;
+    padding: 20px;
+    margin-top: -20px;
+    
+    
+  }
+  .p1,
+  .p2,
+  .p3,
+  .p4,
+  .p5,
+  .p6 {
+    width: 60%;
+    background-color: white;
+    border-left: 3px solid rgb(53, 11, 100);
+    
+    gap:10px
+
+  }
+  .context{
+    background-color: rgb(184, 181, 181);
+  }
+  h1 {
+    margin-left: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0;
+    display:grid;
+    align-items: end;
+  }
+  .nzveke{
+    display:grid;
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .announcements {
+    background-color: white;
+    display:grid;
+    margin-right: 20px;
+    padding: 20px;
+    height:300px;
+    width: 300px;
+  }
+  .dsd {
+    border-bottom: 1px solid grey;
+  }
+.trending {
+   
+    grid-row: -4/-3;
+    grid-column: 3/4;
+    
+    
+}
+.tren {
+    background-color: white;
+    width:300px;
+    height: 200px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-left:20px;
+    
+}
+.i1,
+.i2,
+.i3{
+    display:grid;
+    grid-template-columns: 10px 10px;
+    gap:20px;
+    align-items: first baseline;
+    font-size: 15px;
+    color: black;
+}
